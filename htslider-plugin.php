@@ -94,7 +94,7 @@
             'labels' => $labels,
             'menu_icon' => 'dashicons-format-image',
             //'supports' => array('title', 'thumbnail', 'custom-fields'),
-            'supports' => array('title','custom-fields'),
+            'supports' => array('title','editor','custom-fields'),
             'taxonomies' => array('slider_category'),
             'public' => true,
             'show_ui' => true,
